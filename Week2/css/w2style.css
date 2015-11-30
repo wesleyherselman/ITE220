@@ -26,6 +26,9 @@ body {
 	padding-bottom: 10px;
 	font-size: 2em;
 }
+.content .off {
+	color: red;
+}
 
 .content ul {
 	list-style-type: none;
