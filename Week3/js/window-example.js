@@ -11,6 +11,7 @@ var myWindow = {
 
 		ele = document.getElementById("sx");
 		ele.value = this.screenX;
+		
 		ele = document.getElementById("sy");
 		ele.value = this.screenY;
 

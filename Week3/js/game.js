@@ -24,7 +24,14 @@ var game = {
 		userValueEle.value += value;
 	},
 	checkAnswer: function() {
-		alert("This is not correct! Try again. ");
+		/*alert("This is not correct! Try again. ");*/
+		if (userValueEle.value == this.answer) {
+			alert("Congrats ");
+		}
+		else
+		{
+			
+		}
 	}
 };
 
