@@ -1,0 +1,40 @@
+a {
+ 	color: #000000;
+	font-size: 50px;
+	border-style: solid;
+}
+#container {
+	color: #000000;
+	font-size: 50px;
+}
+#blank {
+	height: 50px;
+	font-size: 50px;
+}
+.change {
+	background-color:#44c767;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.change:hover {
+	background-color:#5cbf2a;
+}
+.change:active {
+	position:relative;
+	top:1px;
+}
+body {
+  background-image: url("../images/city.jpg");
+  background-size: 1200px 900px;
+  background-repeat: no-repeat;
+}
