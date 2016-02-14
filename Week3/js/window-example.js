@@ -2,8 +2,6 @@ var myWindow = {
 	screenX: window.screenX,
 	screenY: window.screenY,
 	location: window.location.pathname,
-	screenW: window.screen.width,
-	screenH: window.screen.height,
 
 	render: function() {
 		var ele = document.getElementById("location");
@@ -11,16 +9,6 @@ var myWindow = {
 
 		ele = document.getElementById("sx");
 		ele.value = this.screenX;
-		
-		ele = document.getElementById("sy");
-		ele.value = this.screenY;
-
-		ele = document.getElementById("screenWidth");
-		ele.value = this.screenW;
-
-		ele = document.getElementById("screenHeight");
-		ele.value = this.screenH;
-
 	}
 };
 
